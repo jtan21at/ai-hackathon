@@ -1,0 +1,20 @@
+{
+  "quizTitle": "Basic Math Quiz",
+  "questions": [
+    {
+      "question": "What is 2 + 2?",
+      "options": ["3", "4", "5", "6"],
+      "answer": "4"
+    },
+    {
+      "question": "What is 5 x 3?",
+      "options": ["15", "10", "8", "20"],
+      "answer": "15"
+    },
+    {
+      "question": "What is 10 ÷ 2?",
+      "options": ["2", "5", "10", "20"],
+      "answer": "5"
+    }
+  ]
+}
