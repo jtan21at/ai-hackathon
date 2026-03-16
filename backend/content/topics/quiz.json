@@ -1,9 +1,9 @@
 {
-  "id": "joseon-dynasty",
-  "title": "The Joseon Dynasty",
-  "subtitle": "Korea's Last Great Kingdom, 1392–1897",
-  "search_scope": "Joseon Dynasty Korea history",
-  "primer": "The Joseon Dynasty was one of the longest-ruling dynasties in world history, governing Korea from 1392 to 1897 — over 500 years. Founded by General Yi Seonggye, who became King Taejo, the dynasty replaced the Goryeo Kingdom and established its capital at Hanyang, the city we know today as Seoul.\n\nJoseon society was deeply shaped by Neo-Confucianism, a philosophy that emphasized loyalty, respect for elders, education, and proper social order. This influenced everything from how families were structured to how the government was run. The dynasty is famous for remarkable achievements including the creation of the Hangul alphabet by King Sejong the Great, the development of a sophisticated civil service examination system, and the production of the Joseon Annals — one of the most detailed historical records ever compiled.\n\nDespite facing invasions from Japan and Manchuria in the late 16th and 17th centuries, Joseon endured and adapted. The dynasty officially ended in 1897 when King Gojong proclaimed the Korean Empire, and Korea was later annexed by Japan in 1910. Today, the legacy of the Joseon Dynasty is visible in Korean language, culture, architecture, and identity.",
+  "id": "history-quiz",
+  "title": "History Quiz",
+  "subtitle": "The Joseon Dynasty & The American Revolution",
+  "search_scope": "Joseon Dynasty Korea history American Revolution",
+  "primer": "This quiz spans two pivotal chapters in world history — one from East Asia, one from the Americas — that share a surprising theme: the birth of something new from something old.\n\nThe Joseon Dynasty (1392–1910) was one of the longest-ruling dynasties in world history, governing the Korean peninsula for over 500 years. Founded by General Yi Seong-gye — who became King Taejo — after overthrowing the Goryeo Kingdom, Joseon was built on the principles of Neo-Confucianism, which shaped Korean society, governance, and culture for centuries. Among its greatest legacies is Hangul, the Korean alphabet created by King Sejong the Great, which allowed common people to become literate for the first time.\n\nThe American Revolution (1775–1783) was the colonial uprising that gave birth to the United States of America. What began with the shots fired at Lexington and Concord escalated into a full-scale war for independence. Key figures like George Washington, the turning point at the Battle of Saratoga, the signing of the Declaration of Independence in 1776, and the final British surrender at Yorktown all shaped a new nation founded on the ideals of liberty and self-governance.",
   "trivia_questions": [
     {
       "id": "q1",
@@ -168,6 +168,6 @@
     "category": "History",
     "difficulty": "beginner",
     "estimated_minutes": 15,
-    "tags": ["korea", "dynasty", "east-asia", "history", "culture", "american-revolution"]
+    "tags": ["korea", "joseon", "dynasty", "east-asia", "american-revolution", "history", "independence"]
   }
 }
