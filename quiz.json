@@ -11,16 +11,16 @@
       "explanation": "Yi Seong-gye, also known as King Taejo, founded the Joseon dynasty in 1392."
     },
     {
-      "id": 3,
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "Which of the following prime numbers are factors of the year the Joseon dynasty began?",
-      "options": ["2", "3", "5", "7", "13", "17"],
-      "answer": ["2", "3"],
-      "explanation": "1392 = 2^3 × 3 × 3 × 29, so 2 and 3 are factors."
+      "id": 2,
+      "type": "single",
+      "difficulty": "easy",
+      "question": "Is the year the Joseon dynasty began odd or even?",
+      "options": ["Odd", "Even"],
+      "answer": "Even",
+      "explanation": "The Joseon dynasty began in 1392, which is an even number."
     },
     {
-      "id": 4,
+      "id": 3,
       "type": "single",
       "difficulty": "medium",
       "question": "During the American Revolution, which battle was considered the turning point?",
@@ -29,7 +29,7 @@
       "explanation": "The Battle of Saratoga (1777) convinced France to support the American cause."
     },
     {
-      "id": 5,
+      "id": 4,
       "type": "single",
       "difficulty": "easy",
       "question": "Which of the following is true about the Battles of Lexington/Concord?",
@@ -40,9 +40,9 @@
       ],
       "answer": "The Battles of Lexington and Concord marked the beginning of the American Revolutionary War.",
       "explanation": "These battles on April 19, 1775, were the first military engagements of the American Revolution."
-    }
+    },
     {
-      "id": 6,
+      "id": 5,
       "type": "single",
       "difficulty": "medium",
       "question": "Who commanded the Continental Army during the American Revolution?",
@@ -51,7 +51,7 @@
       "explanation": "George Washington was appointed Commander-in-Chief of the Continental Army in 1775."
     },
     {
-      "id": 7,
+      "id": 6,
       "type": "single",
       "difficulty": "medium",
       "question": "Which document officially declared the American colonies independent from Britain?",
@@ -60,7 +60,7 @@
       "explanation": "The Declaration of Independence, adopted on July 4, 1776, formally declared independence from Britain."
     },
     {
-      "id": 8,
+      "id": 7,
       "type": "single",
       "difficulty": "medium",
       "question": "Which battle effectively ended major fighting in the American Revolution?",
@@ -69,13 +69,22 @@
       "explanation": "The Siege of Yorktown in 1781 forced British General Cornwallis to surrender, ending major hostilities."
     },
     {
-      "id": 9,
+      "id": 8,
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Check all the American Revolution years that are prime numbers:",
-      "options": ["1775", "1776", "1777", "1781", "1783"],
-      "answer": ["1777", "1783"],
-      "explanation": "1777 and 1783 are prime numbers; the others can be divided by smaller integers."
+      "question": "Which of the following are prime factors of the year the American Revolution began?",
+      "options": ["2", "3", "5", "7", "71", "13"],
+      "answer": ["5", "71"],
+      "explanation": "The American Revolution began in 1775. Its prime factorization is 5 × 5 × 71, so the prime factors are 5 and 71."
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "difficulty": "easy",
+      "question": "How many years did the Joseon dynasty last?",
+      "options": ["418", "500", "518", "600"],
+      "answer": "518",
+      "explanation": "The Joseon dynasty lasted from 1392 to 1910, which is 518 years."
     }
   ]
 }
