@@ -1,0 +1,79 @@
+{
+  "id": "newton-period-quiz",
+  "title": "Isaac Newton & Scientific Revolution Quiz",
+  "subtitle": "History, discoveries, and Newtonian physics",
+  "search_scope": "Isaac Newton scientific revolution physics mathematics gravity laws of motion",
+  "primer": "The period of Isaac Newton (1642–1727) marked a turning point in science, mathematics, and philosophy. Newton made foundational contributions to physics and mathematics, including the laws of motion and universal gravitation. His work built on the Scientific Revolution and influenced centuries of scientific thinking.\n\nDuring this period, key historical events included the publication of Newton’s Principia Mathematica (1687), the development of calculus, and broader shifts in understanding nature and the universe. Newton's influence extended beyond science into philosophy and the culture of learning.",
+  "trivia_questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "easy",
+      "question": "In what year was Isaac Newton born?",
+      "choices": ["1642", "1632", "1652", "1662"],
+      "correct_answer": "1642",
+      "explanation": "Isaac Newton was born on December 25, 1642 (Julian calendar) in Woolsthorpe, England.",
+      "curated_sources": [
+        {
+          "title": "Isaac Newton — Britannica",
+          "url": "https://www.britannica.com/biography/Isaac-Newton",
+          "description": "Biography of Isaac Newton including birth, life, and major achievements."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "medium",
+      "question": "Which work published in 1687 laid out Newton's laws of motion and universal gravitation?",
+      "choices": ["Principia Mathematica", "Opticks", "The Mathematical Analysis of Nature", "De Revolutionibus Orbium Coelestium"],
+      "correct_answer": "Principia Mathematica",
+      "explanation": "Newton’s 'Philosophiæ Naturalis Principia Mathematica' introduced his laws of motion and the law of universal gravitation.",
+      "curated_sources": [
+        {
+          "title": "Principia Mathematica — Britannica",
+          "url": "https://www.britannica.com/biography/Isaac-Newton",
+          "description": "Details about Newton's major work and its impact on physics and mathematics."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "medium",
+      "question": "Newton independently developed which branch of mathematics that is fundamental to physics?",
+      "choices": ["Algebra", "Calculus", "Geometry", "Trigonometry"],
+      "correct_answer": "Calculus",
+      "explanation": "Newton (simultaneously with Leibniz) developed calculus to describe rates of change and motion mathematically.",
+      "curated_sources": [
+        {
+          "title": "Calculus — Britannica",
+          "url": "https://www.britannica.com/biography/Isaac-Newton",
+          "description": "Newton's contributions to calculus and its role in physics and mathematics."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "hard",
+      "question": "A sphere is dropped from a height of 45 meters. Using Newton's acceleration due to gravity (≈9.8 m/s²), how long does it take to hit the ground? (Ignore air resistance.)",
+      "choices": ["3 s", "4 s", "2 s", "5 s"],
+      "correct_answer": "3 s",
+      "explanation": "Using the formula s = 1/2 g t²: 45 = 1/2 * 9.8 * t² → t² ≈ 9.18 → t ≈ 3.03 s.",
+      "curated_sources": [
+        {
+          "title": "Newton's Laws of Motion — Britannica",
+          "url": "https://www.britannica.com/biography/Isaac-Newton",
+          "description": "Newton's law of gravity and motion allows calculation of free fall times."
+        }
+      ]
+    }
+  ],
+  "topic_metadata": {
+    "category": "History & Science",
+    "difficulty": "beginner",
+    "estimated_minutes": 10,
+    "tags": ["isaac-newton", "scientific-revolution", "physics", "mathematics", "history"]
+  }
+}
