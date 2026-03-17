@@ -28,8 +28,8 @@ This application has the following features:
 1. Clone the repository:
    ```
    bash
-   git clone https://github.com/theirenechen12/TriviAI.git
-   cd TriviAI
+   git clone https://github.com/theirenechen12/triviAI.git
+   cd triviAI
    ```
 
 2.	Install dependencies:
