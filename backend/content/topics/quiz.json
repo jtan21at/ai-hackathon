@@ -1,9 +1,9 @@
 {
-  "id": "history-quiz",
-  "title": "History Quiz",
-  "subtitle": "The Joseon Dynasty & The American Revolution",
-  "search_scope": "Joseon Dynasty Korea history American Revolution",
-  "primer": "This quiz spans two pivotal chapters in world history — one from East Asia, one from the Americas — that share a surprising theme: the birth of something new from something old.\n\nThe Joseon Dynasty (1392–1910) was one of the longest-ruling dynasties in world history, governing the Korean peninsula for over 500 years. Founded by General Yi Seong-gye — who became King Taejo — after overthrowing the Goryeo Kingdom, Joseon was built on the principles of Neo-Confucianism, which shaped Korean society, governance, and culture for centuries. Among its greatest legacies is Hangul, the Korean alphabet created by King Sejong the Great, which allowed common people to become literate for the first time.\n\nThe American Revolution (1775–1783) was the colonial uprising that gave birth to the United States of America. What began with the shots fired at Lexington and Concord escalated into a full-scale war for independence. Key figures like George Washington, the turning point at the Battle of Saratoga, the signing of the Declaration of Independence in 1776, and the final British surrender at Yorktown all shaped a new nation founded on the ideals of liberty and self-governance.",
+  "id": "joseon-quiz",
+  "title": "Joseon Dynasty Quiz",
+  "subtitle": "Founders, Hangul, and Joseon history",
+  "search_scope": "Joseon Dynasty Korea history",
+  "primer": "The Joseon Dynasty (1392-1910) was one of the longest-ruling dynasties in world history, governing the Korean peninsula for more than 500 years. Founded by General Yi Seong-gye, later known as King Taejo, Joseon replaced the Goryeo Kingdom and established Neo-Confucianism as the guiding philosophy of government and society.\n\nJoseon is also remembered for major cultural achievements, especially under King Sejong the Great. Sejong sponsored scientific advances and created Hangul, the Korean alphabet, which made literacy more accessible to ordinary people. The dynasty's political structure, scholarship, and cultural legacy still shape Korean identity today.",
   "trivia_questions": [
     {
       "id": "q1",
@@ -43,111 +43,6 @@
       ]
     },
     {
-      "id": "q3",
-      "type": "single",
-      "difficulty": "medium",
-      "question": "During the American Revolution, which battle was considered the turning point?",
-      "choices": ["Battle of Saratoga", "Battle of Lexington/Concord", "Battle of Yorktown", "Winter at Valley Forge"],
-      "correct_answer": "Battle of Saratoga",
-      "explanation": "The Battle of Saratoga (1777) convinced France to support the American cause.",
-      "curated_sources": [
-        {
-          "title": "Battle of Saratoga — Britannica",
-          "url": "https://www.britannica.com/event/Battle-of-Saratoga",
-          "description": "How the American victory at Saratoga in 1777 convinced France to enter the war."
-        },
-        {
-          "title": "Battle of Saratoga — American Battlefield Trust",
-          "url": "https://www.battlefields.org/learn/revolutionary-war/battles/saratoga",
-          "description": "Detailed account of the two battles of Saratoga and their impact on the Revolution."
-        }
-      ]
-    },
-    {
-      "id": "q4",
-      "type": "single",
-      "difficulty": "easy",
-      "question": "Which of the following is true about the Battles of Lexington/Concord?",
-      "choices": [
-        "Paul Revere was the only rider who warned the militias that British troops were coming.",
-        "The Battles of Lexington and Concord marked the beginning of the American Revolutionary War.",
-        "Historians are certain who fired the first shot at Lexington."
-      ],
-      "correct_answer": "The Battles of Lexington and Concord marked the beginning of the American Revolutionary War.",
-      "explanation": "These battles on April 19, 1775, were the first military engagements of the American Revolution.",
-      "curated_sources": [
-        {
-          "title": "Battles of Lexington and Concord — Britannica",
-          "url": "https://www.britannica.com/event/Battles-of-Lexington-and-Concord",
-          "description": "Overview of the opening battles of the American Revolution on April 19, 1775."
-        }
-      ]
-    },
-    {
-      "id": "q5",
-      "type": "single",
-      "difficulty": "medium",
-      "question": "Who commanded the Continental Army during the American Revolution?",
-      "choices": ["Thomas Jefferson", "Benjamin Franklin", "George Washington", "John Adams"],
-      "correct_answer": "George Washington",
-      "explanation": "George Washington was appointed Commander-in-Chief of the Continental Army in 1775.",
-      "curated_sources": [
-        {
-          "title": "George Washington — Commander-in-Chief — Britannica",
-          "url": "https://www.britannica.com/biography/George-Washington",
-          "description": "How Washington led the Continental Army through eight years of war to victory."
-        }
-      ]
-    },
-    {
-      "id": "q6",
-      "type": "single",
-      "difficulty": "medium",
-      "question": "Which document officially declared the American colonies independent from Britain?",
-      "choices": ["Constitution of the United States", "Declaration of Independence", "Articles of Confederation", "Bill of Rights"],
-      "correct_answer": "Declaration of Independence",
-      "explanation": "The Declaration of Independence, adopted on July 4, 1776, formally declared independence from Britain.",
-      "curated_sources": [
-        {
-          "title": "Declaration of Independence — National Archives",
-          "url": "https://www.archives.gov/founding-docs/declaration",
-          "description": "The full text and history of the Declaration of Independence adopted on July 4, 1776."
-        }
-      ]
-    },
-    {
-      "id": "q7",
-      "type": "single",
-      "difficulty": "medium",
-      "question": "Which battle effectively ended major fighting in the American Revolution?",
-      "choices": ["Battle of Bunker Hill", "Battle of Yorktown", "Battle of Saratoga", "Battle of Lexington/Concord"],
-      "correct_answer": "Battle of Yorktown",
-      "explanation": "The Siege of Yorktown in 1781 forced British General Cornwallis to surrender, ending major hostilities.",
-      "curated_sources": [
-        {
-          "title": "Siege of Yorktown — Britannica",
-          "url": "https://www.britannica.com/event/Siege-of-Yorktown",
-          "description": "How the combined American and French forces trapped Cornwallis and ended the war."
-        }
-      ]
-    },
-    {
-      "id": "q8",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "Which of the following are prime factors of the year the American Revolution began?",
-      "choices": ["2", "3", "5", "7", "71", "13"],
-      "correct_answer": ["5", "71"],
-      "explanation": "The American Revolution began in 1775. Its prime factorization is 5 × 5 × 71, so the prime factors are 5 and 71.",
-      "curated_sources": [
-        {
-          "title": "American Revolution — Britannica",
-          "url": "https://www.britannica.com/event/American-Revolution",
-          "description": "Overview of the American Revolution, which began in 1775."
-        }
-      ]
-    },
-    {
       "id": "q9",
       "type": "single",
       "difficulty": "easy",
@@ -167,7 +62,7 @@
   "topic_metadata": {
     "category": "History",
     "difficulty": "beginner",
-    "estimated_minutes": 15,
-    "tags": ["korea", "joseon", "dynasty", "east-asia", "american-revolution", "history", "independence"]
+    "estimated_minutes": 8,
+    "tags": ["korea", "joseon", "dynasty", "east-asia", "history"]
   }
 }

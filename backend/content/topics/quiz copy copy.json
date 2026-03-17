@@ -1,0 +1,79 @@
+{
+  "id": "french-revolution-quiz",
+  "title": "French Revolution Quiz",
+  "subtitle": "Events, figures, and outcomes",
+  "search_scope": "French Revolution France history monarchy revolution liberty equality fraternity",
+  "primer": "The French Revolution (1789-1799) was a period of radical social and political upheaval in France. It led to the overthrow of the monarchy, the rise of the First French Republic, and sweeping reforms in law, society, and government.\n\nKey events include the Estates-General, the storming of the Bastille, the Reign of Terror under Robespierre, and the rise of Napoleon Bonaparte. The Revolution promoted ideals of liberty, equality, and fraternity, reshaping France and inspiring political movements worldwide.",
+  "trivia_questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "easy",
+      "question": "In what year did the French Revolution begin?",
+      "choices": ["1789", "1776", "1799", "1804"],
+      "correct_answer": "1789",
+      "explanation": "The French Revolution began in 1789 with widespread unrest and the convening of the Estates-General.",
+      "curated_sources": [
+        {
+          "title": "French Revolution — Britannica",
+          "url": "https://www.britannica.com/event/French-Revolution",
+          "description": "Overview of the French Revolution, including key events and dates."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "medium",
+      "question": "Which prison's storming on July 14, 1789, became a symbol of the Revolution?",
+      "choices": ["Bastille", "Versailles", "Conciergerie", "Louvre"],
+      "correct_answer": "Bastille",
+      "explanation": "The storming of the Bastille marked the beginning of popular rebellion against the monarchy.",
+      "curated_sources": [
+        {
+          "title": "Storming of the Bastille — Britannica",
+          "url": "https://www.britannica.com/event/storming-of-the-Bastille",
+          "description": "Details about the storming of the Bastille and its symbolism in the French Revolution."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "medium",
+      "question": "Who led the Reign of Terror during the French Revolution?",
+      "choices": ["Napoleon Bonaparte", "Louis XVI", "Maximilien Robespierre", "Jean-Paul Marat"],
+      "correct_answer": "Maximilien Robespierre",
+      "explanation": "Robespierre was a leading figure in the Committee of Public Safety and oversaw the Reign of Terror, executing perceived enemies of the revolution.",
+      "curated_sources": [
+        {
+          "title": "Maximilien Robespierre — Britannica",
+          "url": "https://www.britannica.com/biography/Maximilien-Robespierre",
+          "description": "Biography and role of Robespierre during the French Revolution."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "hard",
+      "question": "1789 is the year the French Revolution started. What is one of its prime factors?",
+      "choices": ["2", "3", "5", "7", "11", "17"],
+      "correct_answer": "17",
+      "explanation": "The number 1789 factors into 17 × 53. So, 17 is a correct prime factor.",
+      "curated_sources": [
+        {
+          "title": "French Revolution — Britannica",
+          "url": "https://www.britannica.com/event/French-Revolution",
+          "description": "Overview of the French Revolution, including its start in 1789."
+        }
+      ]
+    }
+  ],
+  "topic_metadata": {
+    "category": "History",
+    "difficulty": "beginner",
+    "estimated_minutes": 8,
+    "tags": ["french-revolution", "france", "history", "liberty", "equality", "fraternity"]
+  }
+}

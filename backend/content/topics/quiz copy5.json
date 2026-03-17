@@ -1,0 +1,84 @@
+{
+  "id": "csula-history-quiz",
+  "title": "Cal State LA History Quiz",
+  "subtitle": "Founding, milestones, and programs",
+  "search_scope": "CSULA California State University Los Angeles history founding campus programs",
+  "primer": "California State University, Los Angeles (Cal State LA) was founded in 1947 as Los Angeles State College. It has grown into a diverse, research-oriented university with a rich history, including pioneering programs in Chicano Studies and Latin American Studies. The campus sits on historic land and has played a key role in the educational and cultural development of Los Angeles.",
+  "trivia_questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "difficulty": "easy",
+      "question": "In what year was Cal State LA founded?",
+      "choices": ["1947", "1955", "1964", "1972"],
+      "correct_answer": "1947",
+      "explanation": "Cal State LA was founded in 1947 as Los Angeles State College through an act of the California legislature.",
+      "curated_sources": [
+        {
+          "title": "California State University, Los Angeles — Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/California_State_University%2C_Los_Angeles",
+          "description": "Overview of CSULA's founding and history."
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "difficulty": "medium",
+      "question": "What was the original name of Cal State LA when it opened in 1947?",
+      "choices": ["Los Angeles State College", "California State College at Los Angeles", "California State University, Los Angeles", "Los Angeles College of Science"],
+      "correct_answer": "Los Angeles State College",
+      "explanation": "The university was originally called Los Angeles State College before undergoing several name changes as it expanded.",
+      "curated_sources": [
+        {
+          "title": "Cal State LA History — Special Collections",
+          "url": "https://www.calstatela.edu/specialcollections/cal-state-la-history",
+          "description": "History and evolution of Cal State LA."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "difficulty": "medium",
+      "question": "Which groundbreaking program was first established at Cal State LA in 1968?",
+      "choices": ["Chicano Studies", "Latin American Studies", "Computer Science", "Physics"],
+      "correct_answer": "Chicano Studies",
+      "explanation": "Cal State LA established the nation’s first Chicano Studies program in 1968, reflecting its commitment to cultural and social education.",
+      "curated_sources": [
+        {
+          "title": "Cal State LA History — Special Collections",
+          "url": "https://www.calstatela.edu/specialcollections/cal-state-la-history",
+          "description": "Details on pioneering programs and historical milestones."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "difficulty": "hard",
+      "question": "What is the historical significance of the land where Cal State LA sits?",
+      "choices": [
+        "It was part of Rancho Rosa Castilla, a historic Spanish/Mexican land grant",
+        "It was the site of Los Angeles’ first university",
+        "It was previously a gold mining site",
+        "It was the original site of the LA City Hall"
+      ],
+      "correct_answer": "It was part of Rancho Rosa Castilla, a historic Spanish/Mexican land grant",
+      "explanation": "Cal State LA’s campus is located on land that was once part of Rancho Rosa Castilla, highlighting its historical roots in Southern California.",
+      "curated_sources": [
+        {
+          "title": "Cal State LA History — Special Collections",
+          "url": "https://www.calstatela.edu/specialcollections/cal-state-la-history",
+          "description": "Historical context of the university's campus land."
+        }
+      ]
+    }
+  ],
+  "topic_metadata": {
+    "category": "History",
+    "difficulty": "beginner",
+    "estimated_minutes": 8,
+    "tags": ["csula", "cal-state-la", "history", "founding", "programs"]
+  }
+}
