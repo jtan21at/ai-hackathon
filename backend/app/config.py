@@ -1,12 +1,17 @@
-from pydantic_settings import BaseSettings
 from functools import lru_cache
+
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    orchestrate_api_url: str = ""
+    orchestrate_instance_url: str = ""
     orchestrate_api_key: str = ""
-    orchestrate_instance_id: str = ""
-    orchestrate_skill_id: str = ""
+    orchestrate_agent_id: str = ""
+    orchestrate_env_name: str = "backend-mcsp"
+    orchestrate_adk_home: str = ".orchestrate"
+    orchestrate_timeout_seconds: int = 60
+    orchestrate_cli_path: str = ""
+    orchestrate_cli_cwd: str = ""
 
     tavily_api_key: str = ""
 
@@ -16,9 +21,11 @@ class Settings(BaseSettings):
 
     topic_content_dir: str = "./content/topics"
 
-    class Config:
-        env_file = ".env"
-        env_file_encoding = "utf-8"
+    model_config = SettingsConfigDict(
+        env_file=".env.local",
+        env_file_encoding="utf-8",
+        extra="ignore",
+    )
 
 
 @lru_cache()

@@ -3,16 +3,43 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EduTrivia — Learn Through Discovery</title>
+  <title>EduTrivia - Learn Through Discovery</title>
   <link rel="stylesheet" href="/static/style.css" />
 </head>
 <body>
   <div id="root"></div>
+  <section class="embed-shell">
+    <div class="embed-shell-inner">
+      <h2>Watsonx Agent Embed Test</h2>
+      <p>Embedded Orchestrate agent preview.</p>
+      <div id="wxo-embed-root"></div>
+    </div>
+  </section>
 
-  <!-- React + Babel via CDN — no build step needed -->
   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <script type="text/babel" src="/static/app.js"></script>
+  <script>
+    window.wxOConfiguration = {
+      orchestrationID: "20260316-2127-1418-105e-1c63ba682b80_20260316-2127-2613-70e8-3841b0fdd530",
+      hostURL: "https://dl.watson-orchestrate.ibm.com",
+      rootElementID: "wxo-embed-root",
+      chatOptions: {
+        agentId: "7be580de-d379-46f0-a055-1e64c56fc9ba",
+        agentEnvironmentId: "ce72af17-4b08-44b6-a5eb-349f32b6b448"
+      }
+    };
+    setTimeout(function () {
+      const script = document.createElement("script");
+      script.src = `${window.wxOConfiguration.hostURL}/wxochat/wxoLoader.js?embed=true`;
+      script.addEventListener("load", function () {
+        if (window.wxoLoader && typeof window.wxoLoader.init === "function") {
+          window.wxoLoader.init();
+        }
+      });
+      document.head.appendChild(script);
+    }, 0);
+  </script>
 </body>
 </html>

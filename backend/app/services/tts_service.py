@@ -7,10 +7,11 @@ Falls back to None when credentials are not configured.
 
 import httpx
 import base64
+from typing import Optional
 from app.config import get_settings
 
 
-async def synthesize_speech(text: str) -> bytes | None:
+async def synthesize_speech(text: str) -> Optional[bytes]:
     settings = get_settings()
 
     if not settings.tts_api_key or not settings.tts_api_url:
@@ -34,3 +35,4 @@ async def synthesize_speech(text: str) -> bytes | None:
         )
         response.raise_for_status()
         return response.content
+

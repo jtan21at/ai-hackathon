@@ -1,7 +1,7 @@
 import json
 import os
 from functools import lru_cache
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional
 
 from app.config import get_settings
 
@@ -24,8 +24,9 @@ def load_all_topics() -> List[Dict[str, Any]]:
     return topics
 
 
-def get_topic(topic_id: str) -> Dict[str, Any] | None:
+def get_topic(topic_id: str) -> Optional[Dict[str, Any]]:
     for topic in load_all_topics():
         if topic["id"] == topic_id:
             return topic
     return None
+
