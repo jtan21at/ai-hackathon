@@ -160,15 +160,16 @@ function QuizArea({ topic }) {
 
   if (done) {
     const pct = Math.round((score / questions.length) * 100);
+    const subject = topic.title.replace(/\s+Quiz$/i, "");
     return (
       <div className="quiz-area">
         <div className="quiz-complete">
           <div className="score-ring">{pct >= 80 ? "🏆" : pct >= 50 ? "📚" : "💡"}</div>
           <h3>{score} / {questions.length} correct</h3>
           <p>
-            {pct >= 80 ? "Excellent! You really know your Joseon history."
-              : pct >= 50 ? "Good work! A bit more reading and you'll master this."
-              : "Keep exploring — history takes time to absorb!"}
+            {pct >= 80 ? `Excellent! You really know ${subject}.`
+              : pct >= 50 ? `Good work! A bit more reading and you'll master ${subject}.`
+              : `Keep exploring ${subject} and try again.`}
           </p>
           <button className="btn btn-primary" onClick={handleRestart}>Try Again</button>
         </div>
@@ -401,26 +402,24 @@ function App() {
       <header className="app-header">
         <span className="logo">📖</span>
         <h1>EduTrivia</h1>
-        {topics.length > 1 && (
-          <select
-            style={{
-              marginLeft: "auto",
-              background: "var(--surface2)",
-              border: "1px solid var(--border)",
-              color: "var(--text)",
-              padding: "6px 10px",
-              borderRadius: "8px",
-              fontSize: "0.88rem",
-              cursor: "pointer",
-            }}
-            onChange={e => selectTopic(e.target.value)}
-          >
-            {topics.map(t => (
-              <option key={t.id} value={t.id}>{t.title}</option>
-            ))}
-          </select>
-        )}
       </header>
+
+      {topics.length > 1 && (
+        <div className="topic-tabs" role="tablist" aria-label="Quiz topics">
+          {topics.map(t => (
+            <button
+              key={t.id}
+              type="button"
+              role="tab"
+              className={`topic-tab ${activeTopic?.id === t.id ? "active" : ""}`}
+              aria-selected={activeTopic?.id === t.id}
+              onClick={() => selectTopic(t.id)}
+            >
+              {t.title}
+            </button>
+          ))}
+        </div>
+      )}
 
       {loading && (
         <div style={{ textAlign: "center", color: "var(--text-muted)", padding: "60px 0" }}>
