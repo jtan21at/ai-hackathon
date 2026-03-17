@@ -2,7 +2,7 @@ This project addresses the challenge of making history and science engaging thro
 
 # Project Overview / Purpose
   
-EduTrivia is an interactive educational platform designed to make learning history and science engaging. It combines multiple-choice quizzes with a chatbot that answers questions in real time, allowing learners to explore content, verify facts, and gain deeper understanding beyond standard quizzes.
+TriviAI is an interactive educational platform designed to make learning history and science engaging. It combines multiple-choice quizzes with a chatbot that answers questions in real time, allowing learners to explore content, verify facts, and gain a deeper understanding beyond standard quizzes.
 
 # Modules / Content
 It includes the following modules, covering key events, figures, and discoveries, with unique questions that contain historical context, as well as critical thinking questions:
@@ -28,8 +28,8 @@ This application has the following features:
 1. Clone the repository:
    ```
    bash
-   git clone https://github.com/theirenechen12/ai-hackathon.git
-   cd ai-hackathon
+   git clone https://github.com/theirenechen12/TriviAI.git
+   cd TriviAI
    ```
 
 2.	Install dependencies:
