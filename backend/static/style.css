@@ -50,6 +50,36 @@ body {
 }
 .app-header span.logo { font-size: 1.8rem; }
 
+.topic-tabs {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.topic-tab {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+
+.topic-tab:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.topic-tab.active {
+  background: #6c8aff18;
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 /* ─── Topic Card ────────────────────────────────────────────────── */
 .topic-header {
   background: var(--surface);
@@ -352,69 +382,4 @@ body {
   .topic-header h2 { font-size: 1.4rem; }
   .quiz-area, .topic-header, .chatbot-panel { padding: 18px; }
   .bubble-text { max-width: 95%; }
-}
-
-.embed-card {
-  background: linear-gradient(180deg, rgba(108, 138, 255, 0.08), rgba(26, 29, 39, 0.98));
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 22px;
-  margin-bottom: 24px;
-}
-.embed-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 14px;
-}
-.embed-header h3 {
-  font-size: 1rem;
-  font-weight: 700;
-}
-.embed-header p {
-  color: var(--text-muted);
-  font-size: 0.88rem;
-}
-.embed-badge {
-  white-space: nowrap;
-}
-.embed-status {
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  margin-bottom: 12px;
-}
-.embed-status-error {
-  color: var(--red);
-}
-.embed-root {
-  min-height: 420px;
-  border: 1px dashed rgba(108, 138, 255, 0.25);
-  border-radius: 16px;
-  background: rgba(15, 17, 23, 0.55);
-  overflow: hidden;
-}
-.embed-shell {
-  max-width: 900px;
-  margin: 0 auto 80px;
-  padding: 0 20px;
-}
-.embed-shell-inner {
-  background: linear-gradient(180deg, rgba(108, 138, 255, 0.08), rgba(26, 29, 39, 0.98));
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 24px;
-}
-.embed-shell-inner h2 {
-  font-size: 1rem;
-  margin-bottom: 6px;
-}
-.embed-shell-inner p {
-  color: var(--text-muted);
-  margin-bottom: 14px;
-}
-#wxo-embed-root {
-  min-height: 420px;
-  border-radius: 16px;
-  overflow: hidden;
 }
