@@ -26,3 +26,6 @@ Thumbs.db
 
 # Repo-local SSH keys
 .ssh/
+mcsp-local/.orchestrate/
+backend/.env.local
+mcsp-local/.env
