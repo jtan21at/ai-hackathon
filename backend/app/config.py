@@ -18,6 +18,9 @@ class Settings(BaseSettings):
     tts_api_url: str = ""
     tts_api_key: str = ""
     tts_default_voice: str = "en-US_AllisonV3Voice"
+    tts_backup_api_url: str = ""
+    tts_backup_api_key: str = ""
+    tts_backup_voice: str = ""
 
     topic_content_dir: str = "./content/topics"
 
