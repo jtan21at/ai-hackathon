@@ -29,3 +29,10 @@ Thumbs.db
 mcsp-local/.orchestrate/
 backend/.env.local
 mcsp-local/.env
+backend/.orchestrate/
+
+ai-hackathon-main.bundle
+backend/.orchestrate-test/
+tmp-adk-refresh-test/
+tmp-adk-refresh-test-2/
+
